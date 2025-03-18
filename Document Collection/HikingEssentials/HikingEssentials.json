@@ -1,0 +1,79 @@
+{
+    "title": "Day Hiking Guide",
+    "description": "Day hiking simply means any hiking outing that can be done in a day, as opposed to a multiday excursion like a backpacking trip or a thru-hike.",
+    "benefits": "Getting outdoors and experiencing nature offers profound mental and physical benefits.",
+    "preparation": {
+      "short_hikes": "For hikes of around 2 hours, minimal preparation is needed but essentials should not be forgotten.",
+      "longer_hikes": "For hikes of 12 hours or more, additional gear, food, and water are necessary.",
+      "factors": ["Trail conditions", "Weather", "Duration", "Distance from help"]
+    },
+    "checklists": {
+      "essential_items": [
+        "Hiking pack",
+        "Weather-appropriate clothing",
+        "Hiking footwear",
+        "Plenty of food",
+        "Plenty of water",
+        "Navigation tools (map, compass)",
+        "First-aid kit",
+        "Knife or multi-tool"
+      ],
+      "short_hike_gear": {
+        "pack_options": ["Bottle sling", "Waist pack", "Daypack", "Hydration pack"],
+        "optional": ["Trekking poles", "Winter traction devices"]
+      },
+      "clothing": {
+        "basics": [
+          "Moisture-wicking underwear",
+          "Moisture-wicking shirt",
+          "Quick-drying pants/shorts",
+          "Long-sleeve shirt (for sun, bugs)",
+          "Lightweight fleece or jacket",
+          "Socks (synthetic or wool)"
+        ],
+        "cold_weather_additions": [
+          "Rainwear (jacket and pants)",
+          "Long underwear",
+          "Warm, insulated jacket or vest",
+          "Fleece pants",
+          "Gloves or mittens",
+          "Warm hat"
+        ]
+      },
+      "footwear": {
+        "options": ["Hiking boots", "Hiking shoes", "Trail-running shoes", "Hiking sandals"]
+      },
+      "food_water": {
+        "recommended": [
+          "Water bottles and/or reservoir",
+          "Trail snacks (pack extra)",
+          "Resealable bag for trash"
+        ],
+        "optional": ["Lunch"]
+      },
+      "navigation": {
+        "essential": ["Map", "Compass"],
+        "optional": ["Route description", "Altimeter watch", "GPS", "Smartphone apps"]
+      },
+      "emergency_safety": {
+        "first_aid_kit": ["Pain medication", "Antibacterial wipes"],
+        "safety_items": ["Flashlight or headlamp", "Whistle", "Personal items (ID, phone)"]
+      },
+      "sun_protection": [
+        "Sunscreen",
+        "Sunglasses",
+        "Sun hat",
+        "SPF-rated lip balm"
+      ],
+      "tools_repair": ["Knife or multi-tool", "Small gear-repair kit"]
+    },
+    "additional_notes": [
+      "Use checklists to avoid forgetting important items.",
+      "Adjust your packing list based on weather, duration, and difficulty.",
+      "Consider printing or laminating checklists for easy reference."
+    ],
+    "source": {
+      "name": "REI Day Hiking Checklist",
+      "url": "https://www.rei.com/learn/expert-advice/day-hiking-checklist.html"
+    }
+  }

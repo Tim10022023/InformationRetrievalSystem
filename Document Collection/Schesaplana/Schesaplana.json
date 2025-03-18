@@ -1,0 +1,109 @@
+{
+    "name": "Lünersee – Schesaplana Loop from Schuders",
+    "region": "Rätikon, Austria/Switzerland",
+    "duration": "08:01",
+    "distance_km": 14.2,
+    "elevation_gain_m": 1360,
+    "elevation_loss_m": 1360,
+    "difficulty": "Difficult",
+    "description": "A challenging hike requiring excellent fitness, sure-footedness, sturdy footwear, and alpine experience. The starting point is accessible by public transportation.",
+    "warnings": {
+      "dangerous_sections_km": 5.10,
+      "notes": [
+        "Some sections of this route pass through very technical, difficult, or dangerous terrain. Specialized equipment and experience are required."
+      ]
+    },
+    "route": [
+      {
+        "name": "Brand Lünerseebahn Approach",
+        "type": "Bus stop",
+        "km": 0.0
+      },
+      {
+        "name": "Lünersee",
+        "type": "Hiking Highlight",
+        "recommended_by": 1542,
+        "description": "A beautiful lake, rightfully named the most beautiful place in Austria in 2019 on the show '9 Places - 9 Treasures'. The newly renovated cable car quickly takes you up, but there is also a mountain path from the valley station. A scenic hiking path goes around the lake. Fishing is also possible with a permit.",
+        "tip_by": "Björn",
+        "km": 2.55
+      },
+      {
+        "name": "Steep Ascent",
+        "type": "Hiking Highlight",
+        "recommended_by": 85,
+        "description": "It’s worth climbing Schesaplana. The view is magnificent.",
+        "tip_by": "Ralf",
+        "km": 5.23
+      },
+      {
+        "name": "Schesaplana",
+        "type": "Hiking Highlight",
+        "recommended_by": 298,
+        "description": "The strenuous climb is rewarded with a panoramic 360-degree view. The highest peak of the Rätikon range towers over its neighboring peaks. The summit cross bears the inscription 'You are the lord of the mountains and the king of the peaks.' The next higher mountain is over 30 kilometers away in the Silvretta group.",
+        "tip_by": "Jürgen Hild",
+        "km": 7.10
+      },
+      {
+        "name": "Austrian/Swiss Border",
+        "type": "Hiking Highlight",
+        "recommended_by": 157,
+        "description": "From the border, you have a lovely view of Lünersee. Be careful with roaming charges on your mobile phone, as you’re entering Switzerland!",
+        "tip_by": "MichaelNT",
+        "km": 7.25
+      },
+      {
+        "name": "Beautiful View of Lünersee & Totalp",
+        "type": "Hiking Highlight",
+        "recommended_by": 154,
+        "description": "Lünersee is a highlight from every viewpoint.",
+        "tip_by": "Nicole L.",
+        "km": 8.23
+      },
+      {
+        "name": "Totalphütte",
+        "type": "Hiking Highlight",
+        "recommended_by": 905,
+        "description": "After the total destruction of the Totalphütte by an avalanche in 2019, it has now been rebuilt and invites you to enjoy food and drinks. The service is friendly, and the nature is simply indescribable. Lünersee is truly the most beautiful place.",
+        "tip_by": "Björn",
+        "km": 9.36
+      },
+      {
+        "name": "Lünerseeblick",
+        "type": "Hiking Highlight",
+        "recommended_by": 186,
+        "description": "Simply beautiful.",
+        "tip_by": "Geofussl, finally back with my dog.",
+        "km": 10.6
+      },
+      {
+        "name": "Böser Tritt Drinking Station",
+        "type": "Hiking Highlight",
+        "recommended_by": 278,
+        "description": "Fill up your drinks here if you skip the Douglashütte.",
+        "tip_by": "Bernd",
+        "km": 13.5
+      },
+      {
+        "name": "Brand Lünerseebahn",
+        "type": "Bus stop",
+        "km": 14.2
+      }
+    ],
+    "trail_conditions": {
+      "mountain_trail_km": 12.2,
+      "path_km": 2.01,
+      "alpine_terrain_km": "< 0.1"
+    },
+    "surface_types": {
+      "natural_km": 0.421,
+      "gravel_km": 13.6,
+      "asphalt_km": 0.151
+    },
+    "elevation_profile": {
+      "max_elevation_m": 2900,
+      "min_elevation_m": 1570
+    },
+    "source": "Komoot",
+    "url": "https://www.komoot.com/de-de/smarttour/24045436?tour_origin=smart_tour_search"
+  }
+  

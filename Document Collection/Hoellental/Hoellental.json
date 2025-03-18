@@ -1,0 +1,74 @@
+{
+    "name": "Through the Höllentalklamm to the Höllentalangerhütte and back",
+    "region": "Höllental, Grainau",
+    "duration": "04:43",
+    "distance_km": 11.8,
+    "elevation_gain_m": 630,
+    "elevation_loss_m": 630,
+    "difficulty": "Moderate",
+    "description": "A moderately difficult hike requiring good basic fitness and sure-footedness. Mostly well-maintained trails. The starting point is located directly at a parking lot.",
+    "route": [
+      {
+        "name": "P2",
+        "type": "Parking lot",
+        "km": 0.0
+      },
+      {
+        "name": "Höllental Entrance Hut and Museum",
+        "type": "Hiking Highlight",
+        "recommended_by": 1740,
+        "description": "The entrance hut is located at about 1,045 meters. The hike there takes about 60 to 90 minutes. The museum inside the gorge is included in the entrance fee.",
+        "tip_by": "Andy",
+        "km": 3.52
+      },
+      {
+        "name": "Höllentalklamm",
+        "type": "Hiking Highlight (Section)",
+        "recommended_by": 3463,
+        "description": "The Höllentalklamm gorge is an incredible experience. It features waterfalls, small tunnels, and illuminated passages, creating an unforgettable natural spectacle. Open from mid-May to the end of October.",
+        "tip_by": "Andy",
+        "km": 3.54
+      },
+      {
+        "name": "Mariensprung",
+        "type": "Hiking Highlight",
+        "recommended_by": 669,
+        "description": "A beautiful waterfall near the Höllentalangerhütte.",
+        "tip_by": "Philipp ⛰",
+        "km": 5.56
+      },
+      {
+        "name": "Höllentalangerhütte",
+        "type": "Hiking Highlight",
+        "recommended_by": 2578,
+        "description": "An amazing hut with great food and staff. Slightly expensive, but worth it.",
+        "tip_by": "Kristina",
+        "km": 5.91
+      },
+      {
+        "name": "P2",
+        "type": "Parking lot",
+        "km": 11.8
+      }
+    ],
+    "trail_conditions": {
+      "mountain_trail_km": 6.59,
+      "hiking_trail_km": 0.849,
+      "path_km": 4.13,
+      "side_road_km": 0.247,
+      "alpine_terrain_km": 5.89
+    },
+    "surface_types": {
+      "natural_km": 0.661,
+      "loose_ground_km": 2.77,
+      "gravel_km": 2.03,
+      "paved_path_km": "<100m",
+      "asphalt_km": 0.436
+    },
+    "elevation_profile": {
+      "max_elevation_m": 1380,
+      "min_elevation_m": 760
+    },
+    "source": "Komoot",
+    "url": "https://www.komoot.com/de-de/smarttour/e1805146480/durch-die-hoellentalklamm-zur-hoellentalangerhuette-und-zurueck?tour_origin=smart_tour_search"
+  }

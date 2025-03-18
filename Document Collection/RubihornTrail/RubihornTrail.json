@@ -1,0 +1,124 @@
+{
+    "name": "Gaisalpbach Waterfall – Lower Gaisalpsee Loop from Reichenbach",
+    "region": "Allgäu Alps, Germany",
+    "duration": "06:29",
+    "distance_km": 12.9,
+    "elevation_gain_m": 1120,
+    "elevation_loss_m": 1120,
+    "difficulty": "Difficult",
+    "description": "A challenging hike requiring excellent fitness, sure-footedness, sturdy footwear, and alpine experience. The starting point is directly at a parking lot.",
+    "warnings": {
+      "dangerous_sections_km": 2.57,
+      "temporary_restrictions_km": 1.86,
+      "notes": [
+        "Some sections of this route pass through very technical, difficult, or dangerous terrain. Specialized equipment and experience are required.",
+        "Some parts of this trail may have temporary access restrictions. Check for closures before hiking."
+      ]
+    },
+    "route": [
+      {
+        "name": "Gaisalpe",
+        "type": "Parking lot",
+        "km": 0.0
+      },
+      {
+        "name": "Start of Gaisalpbach Waterfall",
+        "type": "Hiking Highlight",
+        "recommended_by": 448,
+        "description": "A breathtaking waterfall below Gaisalpsee, perfect for a short break.",
+        "tip_by": "Tammy",
+        "km": 3.65
+      },
+      {
+        "name": "Gaisalpbach Waterfall",
+        "type": "Hiking Highlight",
+        "recommended_by": 2768,
+        "description": "A stunning natural spectacle.",
+        "tip_by": "Azemina",
+        "km": 3.71
+      },
+      {
+        "name": "View of Gaisalpsee",
+        "type": "Hiking Highlight",
+        "recommended_by": 113,
+        "description": "A great hiking experience in Oberstdorf, worth visiting every year.",
+        "tip_by": "Shyam A",
+        "km": 3.74
+      },
+      {
+        "name": "Lower Gaisalpsee",
+        "type": "Hiking Highlight",
+        "recommended_by": 2694,
+        "description": "Challenging to reach, but less crowded. Beautiful nature! The lake is cold but swimmable in summer.",
+        "tip_by": "Ina",
+        "km": 3.83
+      },
+      {
+        "name": "View towards Rubihorn Summit Cross",
+        "type": "Hiking Highlight",
+        "recommended_by": 186,
+        "description": "A stunning view from Lower Gaisalpsee towards the Rubihorn summit cross.",
+        "tip_by": "Holger",
+        "km": 3.88
+      },
+      {
+        "name": "View of Gaisalpsee",
+        "type": "Hiking Highlight",
+        "recommended_by": 735,
+        "description": "Lower Gaisalpsee is a high-altitude mountain lake at 1,508 meters in the Allgäu Alps. It drains via the Gaisalpbach into the Iller River.",
+        "tip_by": "Jürgen Hild",
+        "km": 4.21
+      },
+      {
+        "name": "Rubihorn Summit",
+        "type": "Hiking Highlight",
+        "recommended_by": 1523,
+        "description": "An indescribably beautiful feeling with breathtaking views.",
+        "tip_by": "Azemina",
+        "km": 5.61
+      },
+      {
+        "name": "Stunning Mountain View",
+        "type": "Hiking Highlight",
+        "recommended_by": 117,
+        "description": "A magnificent view.",
+        "tip_by": "Harald S.",
+        "km": 6.19
+      },
+      {
+        "name": "Upper Gaisalpsee",
+        "type": "Hiking Highlight",
+        "recommended_by": 463,
+        "description": "A wonderful mountain area. Tough to reach, but you might even spot chamois!",
+        "tip_by": "Ina",
+        "km": 8.32
+      },
+      {
+        "name": "Gaisalpe",
+        "type": "Parking lot",
+        "km": 12.9
+      }
+    ],
+    "trail_conditions": {
+      "alpine_trail_km": "< 0.1",
+      "mountain_trail_km": 8.48,
+      "hiking_trail_km": 1.38,
+      "path_km": 2.82,
+      "road_km": 0.12,
+      "alpine_terrain_km": 3.65
+    },
+    "surface_types": {
+      "natural_km": 2.38,
+      "loose_ground_km": 0.309,
+      "gravel_km": 5.51,
+      "paved_path_km": "< 0.1",
+      "asphalt_km": 1.04
+    },
+    "elevation_profile": {
+      "max_elevation_m": 1930,
+      "min_elevation_m": 870
+    },
+    "source": "Komoot",
+    "url": "https://www.komoot.com/de-de/smarttour/1483905206?tour_origin=smart_tour_search"
+  }
+  

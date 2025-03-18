@@ -1,0 +1,90 @@
+{
+    "hike": {
+      "name": "Knorrhütte – Zugspitzplatt Runde von Eibsee",
+      "distance_km": 11.4,
+      "elevation_gain_m": 1170,
+      "elevation_loss_m": 1170,
+      "difficulty": "Challenging",
+      "required_condition": "Very good fitness, good sure-footedness, sturdy footwear, and alpine experience required.",
+      "dangerous_section": true,
+      "notes": "Parts of this route involve very technical, difficult, or dangerous terrain. Special equipment and prior knowledge are essential.",
+      "highlights": [
+        {
+          "name": "Weg zur Knorrhütte",
+          "distance_km": 1.19,
+          "description": "A beautiful hiking area leading up to the Zugspitze.",
+          "rating": "155/163 hikers recommend it."
+        },
+        {
+          "name": "Knorrhütte",
+          "distance_km": 1.85,
+          "description": "A rustic Alpine hut in the rocky fields below the Zugspitze with great views of the Reintal valley and the surrounding peaks. Water refill available.",
+          "rating": "2163/2201 hikers recommend it."
+        },
+        {
+          "name": "Panoramablick",
+          "distance_km": 3.25,
+          "description": "A rocky area with little greenery but excellent panoramic views.",
+          "rating": "553/572 hikers recommend it."
+        },
+        {
+          "name": "Schneefernereck",
+          "distance_km": 4.62,
+          "description": "Impressive rocky landscape, often with large, old snowfields.",
+          "rating": "444/459 hikers recommend it."
+        },
+        {
+          "name": "Zugspitzplatt",
+          "distance_km": 5.54,
+          "description": "The Zugspitzplatt can be reached by descending a dangerous gravel slope or by using the glacier railway from the Zugspitze.",
+          "rating": "803/823 hikers recommend it."
+        },
+        {
+          "name": "Klettersteig",
+          "distance_km": 5.88,
+          "description": "The via ferrata is doable even without a via ferrata set.",
+          "rating": "113/117 hikers recommend it."
+        },
+        {
+          "name": "Blick zum Gletscher",
+          "distance_km": 6.12,
+          "description": "Just before reaching the Zugspitze platform, enjoy a great view back towards the glacier.",
+          "rating": "221/227 hikers recommend it."
+        },
+        {
+          "name": "Zugspitze Gipfel",
+          "distance_km": 6.18,
+          "description": "The summit of the Zugspitze offers breathtaking views in all directions.",
+          "rating": "2137/2198 hikers recommend it."
+        },
+        {
+          "name": "Bergstation Zugspitzbahn",
+          "distance_km": 6.18,
+          "description": "Enjoy stunning views from the top of the Zugspitze. Recommended for those interested in a longer experience.",
+          "rating": "306/319 hikers recommend it."
+        }
+      ],
+      "route": {
+        "start": "Eibsee",
+        "end": "Eibsee",
+        "total_ascent_m": 1170,
+        "total_descent_m": 1170,
+        "highest_point_m": 2910,
+        "lowest_point_m": 1740,
+        "route_types": [
+          "Alpine hiking trail",
+          "Mountain hiking trail",
+          "Walking trail",
+          "Alpine terrain",
+          "Natural path",
+          "Loose ground",
+          "Gravel",
+          "Paved path"
+        ]
+      },
+      "accessibility": "Starting point is accessible via public transport.",
+      "recommended_for": "Experienced hikers with good physical condition, alpine experience, and proper equipment.",
+      "url": "https://www.komoot.com/de-de/smarttour/1237284677?tour_origin=smart_tour_search"
+    }
+  }
+  

@@ -1,0 +1,2 @@
+The general topic for the IR System is hiking. 
+The selected data sources include information about trails and their characteristics.
