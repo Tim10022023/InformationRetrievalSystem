@@ -3,7 +3,7 @@ import os
 document_folder = "Document Collection Translated"
 
 documents = {}
-for filename in os.listdir(docuwaterment_folder):
+for filename in os.listdir(document_folder):
     if filename.endswith(".txt"):
        with open(os.path.join(document_folder, filename), "r", encoding="utf-8") as file:
            documents[filename] = file.read().lower()
