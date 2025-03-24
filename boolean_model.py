@@ -18,7 +18,7 @@ def boolean_search(query):
 
     return matching_docs
 
-query = input("Enter search query for boolean IR model!")
+query = input("\nEnter search query for boolean IR model: ")
 results = boolean_search(query)
 
 if results:
