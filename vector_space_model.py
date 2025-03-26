@@ -66,12 +66,18 @@ def vector_search(query):
     ranked_docs = sorted(scores.items(), key=lambda x: x[1], reverse=True)
     return [(doc, score) for doc, score in ranked_docs if score > 0]
 
-query = input("\nEnter search query for vector space IR model: ")
-results = vector_search(query)
+while True:
+    query = input("\nEnter search query for vector space IR model (or type 'exit' to quit): ").strip()
 
-if results:
-    print("\nTop matching documents:")
-    for doc, score in results:
-        print(f"{doc} - Score: {score:.4f}")
-else:
-    print("\nNo relevant documents found! Try another query.")
+    if query.lower() == "exit" or query == "":
+        print("Exiting Vector Space Search. Goodbye!")
+        break  # Exit while loop
+
+    results = vector_search(query)
+
+    if results:
+        print("\nTop matching documents:")
+        for doc, score in results:
+            print(f"{doc} - Score: {score:.4f}")
+    else:
+        print("\nNo relevant documents found! Try another query.")

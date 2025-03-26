@@ -16,16 +16,23 @@ def boolean_search(query):
     query_terms = query.lower().split()
     matching_docs = []
 
+# check for every document content if it contains search term
     for doc_name, content in documents.items():
         if all(term in content for term in query_terms):
             matching_docs.append(doc_name)
 
     return matching_docs
 
-query = input("\nEnter search query for boolean IR model: ")
-results = boolean_search(query)
+while True:
+    query = input("\nEnter search query for boolean IR model (or type 'exit' to quit): ").strip()
+    
+    if query.lower() == "exit" or query == "":
+        print("Exiting Boolean Search. Goodbye!")
+        break  # Beende die Schleife
 
-if results:
-    print("Found following documents: ", results)
-else:
-    print("No matching documents found! Try another query")
+    results = boolean_search(query)
+
+    if results:
+        print("Found following documents: ", results)
+    else:
+        print("No matching documents found! Try another query.")
