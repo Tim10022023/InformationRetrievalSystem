@@ -2,7 +2,7 @@ import os
 import math
 from collections import Counter
 
-document_folder = "Document Collection Translated"
+document_folder = "Data Collection/Document Collection Translated"
 
 # Load documents from data collection
 documents = {}
