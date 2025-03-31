@@ -8,8 +8,9 @@ The following queries were used to evaluate the system:
 
 - **Query 1:** "swim and water"
 - **Query 2:** "dinner or eating"
+- **Query 3:** "winter or snow"
 
-The goal of this analysis is to measure the performance of the IR system using these queries, and analyze the results in terms of Precision and Recall.
+The goal of this analysis is to measure the performance of the IR system using these queries and analyze the results in terms of Precision and Recall.
 
 ---
 
@@ -118,25 +119,79 @@ The following documents were expected to be relevant but were not retrieved:
 
 ---
 
+## Query 3: "winter or snow"
+
+### Documents Retrieved
+The following documents were retrieved for the query "winter or snow":
+
+- **Found Documents:** 
+  - `Juifen_en.txt`
+  - `Wandflue_en.txt`
+  - `Pochtenfall_en.txt`
+  - `Olpererhuette_en.txt`
+  - `Schafsiedel_en.txt`
+  - `Sonnjoch_en.txt`
+  - `Hoellental_en.txt`
+  - `ZugspitzeTrail1_en.txt`
+  - `Aurlandsvangen_en.txt`
+  - `Puehringerhuette_en.txt`
+  - `Oeschinensee_en.txt`
+  - `Sonntagshorn_en.txt`
+  - `Lackenkogel_en.txt`
+  - `Rinnenspitze_en.txt`
+  - `Geissspitze_en.txt`
+
+### Irrelevant Documents
+The following documents were retrieved but are not relevant for this query:
+
+- **Irrelevant Documents:**
+  - `Pochtenfall_en.txt`: "The hut is closed in winter."
+  - `Hoellental_en.txt`: "In the snow-free time, around mid-May to late October, the gorge is open 24 hours a day."
+  - `Oeschinensee_en.txt`: "We still had snow and thereby there were two places where it was a little more dangerous."
+  - `Lackenkogel_en.txt`: "Lackenkogel with the starting point Winterbauer."
+
+### Missing Documents
+The following documents were expected to be relevant but were not retrieved:
+
+- **Missing Documents:**
+  - `Tseuzier_en.txt`: "This artificial lake with a small island in the middle is in the center of the ski and tourist town of Crans-Montana."
+  - `Cimetta_en.txt`: "Can be well connected with skis to the climb of the Madone and the departure to Mergoscia."
+
+---
+
+### Precision & Recall for Query 3
+
+- **Precision Calculation:**
+
+  Precision = \(\frac{\text{Number of relevant documents retrieved}}{\text{Total documents retrieved}} = \frac{10}{15} = 0.67\)
+
+- **Recall Calculation:**
+
+  Recall = \(\frac{\text{Number of relevant documents retrieved}}{\text{Total relevant documents}} = \frac{10}{12} = 0.83\)
+
+---
+
 ## Discussion
 
 ### Observations
-- **Query 1 ("swim and water"):** The system retrieved 4 documents, of which 3 were relevant. This resulted in a Precision of 0.75 and a Recall of 0.6. While the Precision is decent, Recall could be improved by retrieving the missing relevant documents (`Gruensee_en.txt` and `RoterGrat_en.txt`).
+- **Query 1 ("swim and water"):** The system retrieved 4 documents, 3 of which were relevant. Precision was 0.75, and Recall was 0.6. The system could be improved by retrieving the missing relevant documents.
   
-- **Query 2 ("dinner or eating"):** The system retrieved 4 documents, all of which were relevant. This resulted in a perfect Precision of 1.0, but the Recall was slightly less than ideal (0.67) due to the missing relevant documents (`Mutoerl_en.txt` and `Wandflue_en.txt`).
+- **Query 2 ("dinner or eating"):** All 4 retrieved documents were relevant, giving a Precision of 1.0, but Recall was 0.67 due to the missing relevant documents.
+
+- **Query 3 ("winter or snow"):** Precision was 0.67 because some irrelevant documents were retrieved, but Recall was higher at 0.83 due to retrieving most of the relevant documents.
 
 ### Analysis
-- **Precision:** The system seems to do well in terms of Precision, especially in Query 2, where it retrieved only relevant documents. However, it still misses out on some relevant documents, which affects Recall.
+- **Precision:** The system is good at avoiding irrelevant documents, but some queries still result in irrelevant documents being retrieved.
   
-- **Recall:** Both queries show that there is room for improvement in Recall. Specifically, Query 1 missed out on relevant documents, and Query 2 didn't retrieve all relevant documents either.
+- **Recall:** There is room for improvement in all queries, especially in ensuring that all relevant documents are retrieved. Query 3 performed well in terms of Recall, but the Precision was somewhat impacted by irrelevant results.
 
-- **Boolean Retrieval:** Since the IR system is working on a boolean basis, its ability to retrieve relevant documents is limited by the presence or absence of query terms. More advanced retrieval models like ranking or probabilistic retrieval could potentially improve both Precision and Recall.
+- **Boolean Retrieval:** The boolean retrieval model retrieves documents based on exact keyword matches, which may explain the missing relevant documents in all three queries. More advanced retrieval models, like ranking or probabilistic models, could improve both Precision and Recall.
 
 ---
 
 ## Conclusion
 
-This experiment has shown how well the IR system performs with Boolean retrieval for two specific queries. The results demonstrate the strengths and weaknesses of the system, particularly in terms of Precision and Recall. There are clear areas for improvement, especially in terms of ensuring that all relevant documents are retrieved. Future work could involve experimenting with different query formulations, retrieval models, and larger datasets.
+This experiment demonstrates the performance of the IR system using Boolean retrieval on three specific queries. While Precision was generally good, Recall could be improved, particularly in retrieving all relevant documents. Future work could explore different query formulations, retrieval models, and larger datasets to further optimize the system's performance.
 
 ---
 
