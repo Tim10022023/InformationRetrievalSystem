@@ -88,12 +88,34 @@ We will demonstrate the system's performance with these queries and analyze the 
 
 ---
 
+## Query 4: "children not dangerous"
+
+### Retrieved Documents
+- **Found Documents:** `Gratlspitze_en.txt`, `CreuxDuVan_en.txt`, `Madrisella_en.txt`, `Grossarl_en.txt`
+
+### Relevant Documents
+- All retrieved documents are relevant.
+
+### Missing Documents
+- `Griessenkareck_en.txt` (expected but not retrieved because it uses the term "kids" instead of "children").
+
+### Precision & Recall
+
+- **Precision:**  
+  Precision = 4 / 4 = 1.0
+
+- **Recall:**  
+  Recall = 4 / 5 = 0.8
+
+---
+
 ## Discussion
 
 ### Observations
 - **Query 1:** Precision (0.75) is decent, but Recall (0.6) could be improved by retrieving missing relevant documents.
 - **Query 2:** Perfect Precision (1.0), but Recall (0.67) is lower due to missing relevant documents.
 - **Query 3:** High Recall (0.83), but Precision (0.67) is affected by irrelevant results.
+- **Query 4:** The system retrieved the correct documents with perfect precision (1.0), but recall could be improved by capturing documents like `Griessenkareck_en.txt`, which used the term "kids" instead of "children".
 
 ### Analysis
 - The system performs well with Boolean retrieval but has room for improvement in both Precision and Recall, especially in retrieving all relevant documents.
