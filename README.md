@@ -17,7 +17,7 @@ The **Boolean Model** allows searching with logical operators:
 ```
 mountain AND lake  
 forest OR river  
-canyon AND waterfall NOT difficult  
+waterfall NOT difficult  
 ```  
 To use the Boolean Model, run:  
 ```sh
@@ -32,7 +32,7 @@ The **Vector Space Model** ranks documents based on their relevance to the query
 
 ✅ **Example Query:**  
 ```
-best scenic trail with waterfall  
+best trail with waterfall  
 ```  
 ➡️ The system returns **ranked** documents based on similarity scores.  
 
