@@ -31,7 +31,7 @@ We will demonstrate the system's performance with these queries and analyze the 
 - **Expected Relevant:** `RubihornTrail_en.txt`, `Murgsee_en.txt`, `Schafsiedel_en.txt`
 
 ### Irrelevant Documents
-- `KaiserEgg_en.txt` (irrelevant due to contradictory statement).
+- `KaiserEgg_en.txt` (irrelevant due to contradictory statement: "So I wouldn't necessarily swim in this standing water.").
 
 ### Missing Documents
 - `Gruensee_en.txt`, `RoterGrat_en.txt` (expected but not retrieved).
@@ -73,10 +73,10 @@ We will demonstrate the system's performance with these queries and analyze the 
 - **Found Documents:** `Juifen_en.txt`, `Wandflue_en.txt`, `Pochtenfall_en.txt`, `Olpererhuette_en.txt`, `Schafsiedel_en.txt`, `Sonnjoch_en.txt`, `Hoellental_en.txt`, `ZugspitzeTrail1_en.txt`, `Aurlandsvangen_en.txt`, `Puehringerhuette_en.txt`, `Oeschinensee_en.txt`, `Sonntagshorn_en.txt`, `Lackenkogel_en.txt`, `Rinnenspitze_en.txt`, `Geissspitze_en.txt`
 
 ### Irrelevant Documents
-- `Pochtenfall_en.txt`, `Hoellental_en.txt`, `Oeschinensee_en.txt`, `Lackenkogel_en.txt`.
+- `Pochtenfall_en.txt`, `Hoellental_en.txt`, `Oeschinensee_en.txt`, `Lackenkogel_en.txt`.(irrelevant due to contradictory statements).
 
 ### Missing Documents
-- `Tseuzier_en.txt`, `Cimetta_en.txt` (expected but not retrieved).
+- `Tseuzier_en.txt`, `Cimetta_en.txt` (expected but not retrieved, even though they contain information about ski (relationed to winter and snow)).
 
 ### Precision & Recall
 
@@ -103,12 +103,11 @@ We will demonstrate the system's performance with these queries and analyze the 
 
 ## Conclusion
 
-The Boolean IR system demonstrated good Precision, but Recall can be improved, particularly in terms of retrieving all relevant documents. Further improvements can be made by using advanced retrieval models.
-
+The Boolean IR system demonstrated good Precision, but Recall can be improved, particularly in terms of retrieving all relevant documents. 
 ---
 
 ## Source Code & Dataset
 
 The code and dataset used in this experiment are available on GitHub:
 
-- **[GitHub Repository Link]** (add your GitHub URL here)
+- **[GitHub Repository Link]** (https://github.com/Tim10022023/InformationRetrievalSystem)
