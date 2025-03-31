@@ -7,6 +7,7 @@ This report evaluates an Information Retrieval (IR) system's performance based o
 - **Query 1:** "swim and water"
 - **Query 2:** "dinner or eating"
 - **Query 3:** "winter or snow"
+- **Query 4:** "children not dangerous"
 
 We will demonstrate the system's performance with these queries and analyze the results.
 
