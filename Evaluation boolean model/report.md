@@ -16,17 +16,9 @@ We will demonstrate the system's performance with these queries and analyze the 
 
 ### Evaluation Metrics
 
-- **Precision** measures how many of the retrieved documents are relevant:
+- **Precision** measures the proportion of retrieved documents that are relevant.
 
-  \[
-  Precision = \frac{\text{Relevant documents retrieved}}{\text{Total documents retrieved}}
-  \]
-
-- **Recall** measures how many of the relevant documents were retrieved:
-
-  \[
-  Recall = \frac{\text{Relevant documents retrieved}}{\text{Total relevant documents}}
-  \]
+- **Recall** measures the proportion of relevant documents that were retrieved.
 
 ---
 
@@ -47,14 +39,10 @@ We will demonstrate the system's performance with these queries and analyze the 
 ### Precision & Recall
 
 - **Precision:**  
-  \[
-  Precision = \frac{3}{4} = 0.75
-  \]
+  Precision = 3 / 4 = 0.75
 
 - **Recall:**  
-  \[
-  Recall = \frac{3}{5} = 0.6
-  \]
+  Recall = 3 / 5 = 0.6
 
 ---
 
@@ -72,14 +60,10 @@ We will demonstrate the system's performance with these queries and analyze the 
 ### Precision & Recall
 
 - **Precision:**  
-  \[
-  Precision = \frac{4}{4} = 1.0
-  \]
+  Precision = 4 / 4 = 1.0
 
 - **Recall:**  
-  \[
-  Recall = \frac{4}{6} = 0.67
-  \]
+  Recall = 4 / 6 = 0.67
 
 ---
 
@@ -97,14 +81,10 @@ We will demonstrate the system's performance with these queries and analyze the 
 ### Precision & Recall
 
 - **Precision:**  
-  \[
-  Precision = \frac{10}{15} = 0.67
-  \]
+  Precision = 10 / 15 = 0.67
 
 - **Recall:**  
-  \[
-  Recall = \frac{10}{12} = 0.83
-  \]
+  Recall = 10 / 12 = 0.83
 
 ---
 
