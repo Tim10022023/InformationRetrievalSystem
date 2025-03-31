@@ -131,6 +131,6 @@ The Boolean IR system demonstrated good Precision, but Recall can be improved, p
 
 ## Source Code & Dataset
 
-The code and dataset used in this experiment are available on GitHub:
+The code and dataset used in this experiment are available on GitHub
 
 - **[GitHub Repository Link]** (https://github.com/Tim10022023/InformationRetrievalSystem)
