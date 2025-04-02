@@ -118,15 +118,17 @@ We will demonstrate the system's performance with these queries and analyze the 
 - **Query 3:** High Recall (0.83), but Precision (0.67) is affected by irrelevant results.
 - **Query 4:** The system retrieved the correct documents with perfect precision (1.0), but recall could be improved by capturing documents like `Griessenkareck_en.txt`, which used the term "kids" instead of "children".
 
-### Analysis
-- The system performs well with Boolean retrieval but has room for improvement in both Precision and Recall, especially in retrieving all relevant documents.
-- Advanced retrieval models such as ranking or probabilistic models could improve results.
+### Analysis and Conclusion
+The Boolean model fulfills its functionality by returning the documents explicitly matching the query. However, the sometimes suboptimal Precision and Recall values indicate that this strict retrieval approach lacks contextual awareness. As a result, it retrieves some irrelevant documents while failing to return all relevant ones.
 
----
+A system like the Vector Space Model (VSM) offers an advantage by incorporating ranking, which helps prioritize more relevant documents. An even more advanced approach would integrate AI-driven techniques to enhance retrieval effectiveness. For example:
 
-## Conclusion
+Synonym Recognition: Automatically identifying and including synonyms in searches (e.g., recognizing "kids" as equivalent to "children").
 
-The Boolean IR system demonstrated good Precision, but Recall can be improved, particularly in terms of retrieving all relevant documents. 
+Context Awareness: Understanding the surrounding words to disambiguate meanings (e.g., distinguishing "Apple" as a company from "apple" as a fruit when searching for stock-related information).
+
+Implementing these improvements would significantly enhance both Precision and Recall, making the IR system more robust and context-aware.
+
 ---
 
 ## Source Code & Dataset
