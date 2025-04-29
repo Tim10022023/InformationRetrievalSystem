@@ -4,7 +4,7 @@ from .preprocessing import preprocess
 import numpy as np
 
 class LSISearch:
-    def __init__(self, documents, n_components=75):
+    def __init__(self, documents, n_components=50):
         self.documents = documents
         self.titles = list(documents.keys())
         self.n_components = n_components
