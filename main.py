@@ -6,15 +6,12 @@ from search.boolean_search import boolean_search
 from search.ranked_search import RankedSearch
 from search.lsi_search import LSISearch
 
-# --- Load documents ---
 folder_path = "Data Collection/Document Collection Translated"
 documents = load_documents(folder_path)
 
-# --- Initialize Models ---
 ranked_search_model = RankedSearch(documents)
 lsi_search_model = LSISearch(documents)
 
-# --- Functions ---
 def open_file_content(filename):
     if filename not in documents:
         messagebox.showerror("Error", f"File '{filename}' not found.")
@@ -72,11 +69,9 @@ def on_result_select(event):
     try:
         selected_item = results_listbox.get(results_listbox.curselection())
 
-        # Remove ranking number if present
         if ". " in selected_item:
             selected_item = selected_item.split(". ", 1)[1]
 
-        # Remove score part if present
         filename = selected_item.split(" (")[0].strip()
 
         if filename and filename in documents:
@@ -84,7 +79,6 @@ def on_result_select(event):
     except IndexError:
         pass
 
-# --- Build UI ---
 root = tk.Tk()
 root.title("Search UI")
 root.geometry("500x450")
